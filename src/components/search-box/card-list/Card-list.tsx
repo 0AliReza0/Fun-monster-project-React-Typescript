@@ -3,20 +3,7 @@ import React, {Component} from 'react';
 import './card-list.styles.css'
 import Card from "./card/Card.component";
 
-interface Props{
-    monsters: {
-        id: number
-        name: string
-        email: string
-    }[]
-}
-
-interface Monster{
-    id: number
-    name:string
-    email:string
-}
-
+import {Props,Monster} from "../../../../interfaces";
 
 class CardList extends Component<Props> {
 

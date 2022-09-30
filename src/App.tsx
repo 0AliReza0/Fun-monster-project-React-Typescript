@@ -4,25 +4,7 @@ import CardList from "./components/search-box/card-list/Card-list";
 import './App.css';
 import SearchBox from "./components/search-box/Search-box";
 
-interface State {
-  monsters:{
-    id:number
-    name:string
-    email:string
-  }[],
-  filteredMonsters:{
-    id:number
-    name:string
-    email:string
-  }[]
-}
-
-interface Monster{
-  id:number
-  name:string
-  email:string
-}
-
+import {State,Monster} from '../interfaces'
 
 class App extends React.Component <any,State> {
 

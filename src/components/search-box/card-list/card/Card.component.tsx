@@ -2,15 +2,9 @@ import React, {Component} from 'react';
 
 import './card.styles.css'
 
-interface Props{
-    monster:{
-        id: number
-        name:string
-        email:string
-    }
-}
+import {CardProps} from '../../../../../interfaces'
 
-class Card extends Component<Props> {
+class Card extends Component<CardProps> {
     render() {
         const {id, name, email} = this.props.monster
         return (
