@@ -1,6 +1,6 @@
 # Project Image
 
-<img src=https://github.com/0AliReza0/Fun-monster-project-React-Typescript/blob/796ba19befe8228ff4bd2294b52167704d190185/images/Screenshot%202022-09-30%20135511.png" alt="Project-Image" />
+<img src="https://github.com/0AliReza0/Fun-monster-project-React-Typescript/blob/796ba19befe8228ff4bd2294b52167704d190185/images/Screenshot%202022-09-30%20135511.png" alt="Project-Image" />
 
 # Getting Started with Create React App
 
