@@ -1,0 +1,19 @@
+body{
+  margin:0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+  to left,
+  rgba(7,27,82,1)0%,
+  rgba(0,128,128,1)100%
+  );
+  text-align: center;
+}
+
+.app-title{
+  margin-top:55px;
+  margin-bottom:40px;
+  font-size:80px;
+  color:#0ccac4
+}
